@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="SIMLANE:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/SIMLANE_jar</output-path>
+    <root id="archive" name="SIMLANE.jar">
+      <element id="module-output" name="SIMLANE" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/json/json/20190722/json-20190722.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/commons-io/commons-io/2.6/commons-io-2.6.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,13 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Simlane_jar" type="JarApplication">
+    <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/SIMLANE_jar/SIMLANE.jar" />
+    <option name="WORKING_DIRECTORY" value="C:\Users\gub\workspace\git-repos\psit3_group-6\SIMLANE\out\artifacts\SIMLANE_jar\" />
+    <option name="ALTERNATIVE_JRE_PATH" value="11" />
+    <module name="SIMLANE" />
+    <method v="2">
+      <option name="BuildArtifacts" enabled="true">
+        <artifact name="SIMLANE:jar" />
+      </option>
+    </method>
+  </configuration>
+</component>

@@ -1,0 +1,896 @@
+{
+  "scenarios": [
+    {
+      "name": "default",
+      "display-name": "Default",
+      "map-rows": 5,
+      "map-cols": 5,
+      "start-points": [
+        {
+          "side": "top",
+          "pos": 1,
+          "cars": [
+            {
+              "type": "yellow",
+              "count": 5
+            },
+            {
+              "type": "blue",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "side": "left",
+          "pos": 2,
+          "cars": [
+            {
+              "type": "yellow",
+              "count": 10
+            },
+            {
+              "type": "blue",
+              "count": 1
+            },
+            {
+              "type": "orange",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "side": "bottom",
+          "pos": 1,
+          "cars": [
+            {
+              "type": "green",
+              "count": 2
+            },
+            {
+              "type": "blue",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "side": "bottom",
+          "pos": 4,
+          "cars": [
+            {
+              "type": "red",
+              "count": 2
+            }
+          ]
+        }
+      ],
+      "end-points": [
+        {
+          "side": "top",
+          "pos": 3,
+          "type": "yellow"
+        },
+        {
+          "side": "left",
+          "pos": 2,
+          "type": "green"
+        },
+        {
+          "side": "right",
+          "pos": 1,
+          "type": "red"
+        },
+        {
+          "side": "right",
+          "pos": 2,
+          "type": "blue"
+        },
+        {
+          "side": "bottom",
+          "pos": 3,
+          "type": "orange"
+        }
+      ]
+    },
+    {
+      "name": "presentation-demo",
+      "display-name": "Presentation Demo",
+      "map-rows": 3,
+      "map-cols": 3,
+      "start-points": [
+        {
+          "side": "top",
+          "pos": 1,
+          "cars": [
+            {
+              "type": "yellow",
+              "count": 1
+            },
+            {
+              "type": "blue",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "side": "left",
+          "pos": 0,
+          "cars": [
+            {
+              "type": "purple",
+              "count": 3
+            },
+            {
+              "type": "blue",
+              "count": 1
+            },
+            {
+              "type": "dark-blue",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "side": "left",
+          "pos": 2,
+          "cars": [
+            {
+              "type": "dark-green",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "side": "bottom",
+          "pos": 1,
+          "cars": [
+            {
+              "type": "dark-green",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "side": "right",
+          "pos": 2,
+          "cars": [
+            {
+              "type": "yellow",
+              "count": 3
+            }
+          ]
+        }
+      ],
+      "end-points": [
+        {
+          "side": "top",
+          "pos": 2,
+          "type": "yellow"
+        },
+        {
+          "side": "left",
+          "pos": 1,
+          "type": "dark-green"
+        },
+        {
+          "side": "left",
+          "pos": 2,
+          "type": "purple"
+        },
+        {
+          "side": "right",
+          "pos": 1,
+          "type": "blue"
+        },
+        {
+          "side": "bottom",
+          "pos": 2,
+          "type": "dark-blue"
+        }
+      ]
+    },
+    {
+      "name": "tutorial1",
+      "display-name": "Tutorial 1",
+      "map-rows": 5,
+      "map-cols": 5,
+      "start-points": [
+        {
+          "side": "top",
+          "pos": 1,
+          "cars": [
+            {
+              "type": "yellow",
+              "count": 1
+            },
+            {
+              "type": "blue",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "side": "left",
+          "pos": 2,
+          "cars": [
+            {
+              "type": "yellow",
+              "count": 1
+            },
+            {
+              "type": "blue",
+              "count": 1
+            },
+            {
+              "type": "orange",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "side": "bottom",
+          "pos": 1,
+          "cars": [
+            {
+              "type": "green",
+              "count": 1
+            },
+            {
+              "type": "blue",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "side": "bottom",
+          "pos": 4,
+          "cars": [
+            {
+              "type": "red",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "end-points": [
+        {
+          "side": "top",
+          "pos": 3,
+          "type": "yellow"
+        },
+        {
+          "side": "left",
+          "pos": 2,
+          "type": "green"
+        },
+        {
+          "side": "right",
+          "pos": 1,
+          "type": "red"
+        },
+        {
+          "side": "right",
+          "pos": 2,
+          "type": "blue"
+        },
+        {
+          "side": "bottom",
+          "pos": 3,
+          "type": "orange"
+        }
+      ]
+    },
+    {
+      "name": "tutorial2",
+      "display-name": "Tutorial 2",
+      "map-rows": 5,
+      "map-cols": 5,
+      "start-points": [
+        {
+          "side": "left",
+          "pos": 2,
+          "cars": [
+            {
+              "type": "blue",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "side": "bottom",
+          "pos": 3,
+          "cars": [
+            {
+              "type": "yellow",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "side": "bottom",
+          "pos": 0,
+          "cars": [
+            {
+              "type": "green",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "side": "top",
+          "pos": 3,
+          "cars": [
+            {
+              "type": "purple",
+              "count": 4
+            }
+          ]
+        }
+      ],
+      "end-points": [
+        {
+          "side": "right",
+          "pos": 2,
+          "type": "blue"
+        },
+        {
+          "side": "top",
+          "pos": 1,
+          "type": "yellow"
+        },
+        {
+          "side": "right",
+          "pos": 3,
+          "type": "green"
+        },
+        {
+          "side": "left",
+          "pos": 0,
+          "type": "purple"
+        }
+      ]
+    },
+    {
+      "name": "simple",
+      "display-name": "Simple",
+      "map-rows": 5,
+      "map-cols": 5,
+      "start-points": [
+        {
+          "side": "left",
+          "pos": 2,
+          "cars": [
+            {
+              "type": "blue",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "end-points": [
+        {
+          "side": "right",
+          "pos": 2,
+          "type": "blue"
+        }
+      ]
+    },
+    {
+      "name": "long",
+      "display-name": "Long",
+      "map-rows": 3,
+      "map-cols": 9,
+      "start-points": [
+        {
+          "side": "left",
+          "pos": 1,
+          "cars": [
+            {
+              "type": "blue",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "end-points": [
+        {
+          "side": "right",
+          "pos": 1,
+          "type": "blue"
+        }
+      ]
+    },
+    {
+      "name": "orange-light-demo",
+      "display-name": "Orange Traffic Light Algorithm",
+      "map-rows": 3,
+      "map-cols": 6,
+      "start-points": [
+        {
+          "side": "left",
+          "pos": 0,
+          "cars": [
+            {
+              "type": "blue",
+              "count": 4
+            },
+            {
+              "type": "dark-blue",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "end-points": [
+        {
+          "side": "right",
+          "pos": 0,
+          "type": "dark-blue"
+        },
+        {
+          "side": "right",
+          "pos": 1,
+          "type": "blue"
+        }
+      ]
+    },
+    {
+      "name": "roundaboutsmall",
+      "display-name": "Small Roundabout Simulation",
+      "map-rows": 4,
+      "map-cols": 4,
+      "start-points": [
+        {
+          "side": "top",
+          "pos": 0,
+          "cars": [
+            {
+              "type": "green",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "side": "bottom",
+          "pos": 3,
+          "cars": [
+            {
+              "type": "yellow",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "side": "left",
+          "pos": 3,
+          "cars": [
+            {
+              "type": "blue",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "side": "right",
+          "pos": 0,
+          "cars": [
+            {
+              "type": "red",
+              "count": 5
+            }
+          ]
+        }
+      ],
+      "end-points": [
+        {
+          "side": "bottom",
+          "pos": 3,
+          "type": "green"
+        },
+        {
+          "side": "right",
+          "pos": 0,
+          "type": "blue"
+        },
+        {
+          "side": "top",
+          "pos": 0,
+          "type": "yellow"
+        },
+        {
+          "side": "left",
+          "pos": 3,
+          "type": "red"
+        }
+      ]
+    },
+    {
+      "name": "roundabout",
+      "display-name": "Roundabout Simulation",
+      "map-rows": 10,
+      "map-cols": 10,
+      "start-points": [
+        {
+          "side": "top",
+          "pos": 1,
+          "cars": [
+            {
+              "type": "green",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "side": "bottom",
+          "pos": 8,
+          "cars": [
+            {
+              "type": "yellow",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "side": "left",
+          "pos": 8,
+          "cars": [
+            {
+              "type": "blue",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "side": "right",
+          "pos": 1,
+          "cars": [
+            {
+              "type": "red",
+              "count": 5
+            }
+          ]
+        }
+      ],
+      "end-points": [
+        {
+          "side": "bottom",
+          "pos": 8,
+          "type": "green"
+        },
+        {
+          "side": "right",
+          "pos": 1,
+          "type": "blue"
+        },
+        {
+          "side": "top",
+          "pos": 1,
+          "type": "yellow"
+        },
+        {
+          "side": "left",
+          "pos": 8,
+          "type": "red"
+        }
+      ]
+    },
+    {
+      "name": "complex",
+      "display-name": "Complex",
+      "map-rows": 10,
+      "map-cols": 10,
+      "start-points": [
+        {
+          "side": "top",
+          "pos": 1,
+          "cars": [
+            {
+              "type": "blue",
+              "count": 2
+            },
+            {
+              "type": "dark-blue",
+              "count": 1
+            },
+            {
+              "type": "purple",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "side": "top",
+          "pos": 4,
+          "cars": [
+            {
+              "type": "yellow",
+              "count": 2
+            },
+            {
+              "type": "green",
+              "count": 10
+            }
+          ]
+        },
+        {
+          "side": "top",
+          "pos": 6,
+          "cars": [
+            {
+              "type": "red",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "side": "left",
+          "pos": 4,
+          "cars": [
+            {
+              "type": "dark-green",
+              "count": 6
+            },
+            {
+              "type": "red",
+              "count": 6
+            }
+          ]
+        },
+        {
+          "side": "left",
+          "pos": 6,
+          "cars": [
+            {
+              "type": "blue",
+              "count": 4
+            },
+            {
+              "type": "yellow",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "side": "top",
+          "pos": 7,
+          "cars": [
+            {
+              "type": "orange",
+              "count": 3
+            },
+            {
+              "type": "red",
+              "count": 3
+            },
+            {
+              "type": "purple",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "side": "right",
+          "pos": 0,
+          "cars": [
+            {
+              "type": "yellow",
+              "count": 10
+            },
+            {
+              "type": "dark-blue",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "side": "right",
+          "pos": 8,
+          "cars": [
+            {
+              "type": "green",
+              "count": 1
+            },
+            {
+              "type": "blue",
+              "count": 1
+            },
+            {
+              "type": "yellow",
+              "count": 1
+            },
+            {
+              "type": "red",
+              "count": 7
+            }
+          ]
+        },
+        {
+          "side": "right",
+          "pos": 6,
+          "cars": [
+            {
+              "type": "purple",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "side": "right",
+          "pos": 3,
+          "cars": [
+            {
+              "type": "dark-green",
+              "count": 10
+            },
+            {
+              "type": "dark-blue",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "side": "bottom",
+          "pos": 1,
+          "cars": [
+            {
+              "type": "yellow",
+              "count": 3
+            },
+            {
+              "type": "orange",
+              "count": 8
+            }
+          ]
+        },
+        {
+          "side": "bottom",
+          "pos": 6,
+          "cars": [
+            {
+              "type": "dark-blue",
+              "count": 1
+            },
+            {
+              "type": "red",
+              "count": 8
+            }
+          ]
+        },
+        {
+          "side": "top",
+          "pos": 1,
+          "cars": [
+            {
+              "type": "purple",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "end-points": [
+        {
+          "side": "top",
+          "pos": 2,
+          "type": "red"
+        },
+        {
+          "side": "top",
+          "pos": 5,
+          "type": "blue"
+        },
+        {
+          "side": "left",
+          "pos": 3,
+          "type": "yellow"
+        },
+        {
+          "side": "right",
+          "pos": 1,
+          "type": "orange"
+        },
+        {
+          "side": "right",
+          "pos": 5,
+          "type": "purple"
+        },
+        {
+          "side": "right",
+          "pos": 9,
+          "type": "dark-blue"
+        },
+        {
+          "side": "bottom",
+          "pos": 3,
+          "type": "dark-green"
+        },
+        {
+          "side": "bottom",
+          "pos": 9,
+          "type": "green"
+        }
+      ]
+    },
+    {
+      "name": "demo",
+      "display-name": "Demo",
+      "map-rows": 2,
+      "map-cols": 2,
+      "start-points": [
+        {
+          "side": "left",
+          "pos": 0,
+          "cars": [
+            {
+              "type": "green",
+              "count": 1
+            },
+            {
+              "type": "blue",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "side": "left",
+          "pos": 1,
+          "cars": [
+            {
+              "type": "green",
+              "count": 2
+            },
+            {
+              "type": "blue",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "side": "bottom",
+          "pos": 1,
+          "cars": [
+            {
+              "type": "green",
+              "count": 2
+            }
+          ]
+        }
+      ],
+      "end-points": [
+        {
+          "side": "top",
+          "pos": 1,
+          "type": "green"
+        },
+        {
+          "side": "right",
+          "pos": 1,
+          "type": "blue"
+        }
+      ]
+    },
+    {
+      "name": "test",
+      "display-name": "Test",
+      "map-rows": 2,
+      "map-cols": 2,
+      "start-points": [
+        {
+          "side": "left",
+          "pos": 0,
+          "cars": [
+            {
+              "type": "blue",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "end-points": [
+        {
+          "side": "right",
+          "pos": 0,
+          "type": "blue"
+        }
+      ]
+    }
+  ]
+}

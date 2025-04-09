@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Simlane" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="ch.simlane.Simlane" />
+    <module name="SIMLANE" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
