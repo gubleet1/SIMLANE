@@ -14,3 +14,17 @@ Traffic simulator with **behavioral algorithm** that models a human driver and t
 - Wiedemann 99 car following algorithm definition: [W99-algorithm.pdf](./docs/papers/W99-algorithm.pdf)
 - IntelliJ IDEA project root: [intellij/SIMLANE/](./intellij/SIMLANE/)
 - Main srouce files: [intellij/SIMLANE/src/ch/simlane/](./intellij/SIMLANE/src/ch/simlane/)
+
+## Screenshots
+
+### Creating a traffic network (and solving the puzzle)
+
+![Creating a map](./res/readme/screenshot-1.png)
+
+### Validating the traffic network (all cars must be able to reach their destination)
+
+![Successfully validated map](./res/readme/screenshot-2.png)
+
+### Simulating the trffic network with realistic cars (models physics and human behavior)
+
+![Simulation of the map](./res/readme/screenshot-3.png)
